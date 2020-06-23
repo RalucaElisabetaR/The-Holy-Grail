@@ -1,0 +1,120 @@
+
+html, body {
+    height: 100%;
+    display: table;
+    margin: 2px;
+   	outline-style: solid; outline-color: white;
+ 
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.container { margin-top: 10px; 
+	position: static;
+	background-color: #abdeb8;
+	height: 75%; 
+	width: 99.5;
+	margin: 5px;
+}
+
+header {
+	background-color: #B8860B;
+	display: block;
+	padding-right: 6px;
+	padding-left: 6px;
+	text-align: center;
+	padding: 1px;
+	margin: 5px;
+	width: 98.9%;
+}
+
+
+
+ nav {
+	display: block; 
+	background-color: inherit;
+	background-position: center;
+	float: left;
+	margin: 5px; 
+	padding: 1px; width: 15%;
+	height: auto;
+	padding-left: 1px; padding-right: 20px;
+
+
+
+ 
+   }
+main {
+	display: block; 
+	background-color: #FFFAF0;
+	float: left; width: 60%; height: 99.3%;
+	margin-left: 5px; margin-right: 5px; 
+	padding: 2px; padding-left: 10px;
+	padding-right: 10px;
+	border-left: solid; border-color: white; border-radius: 1px;
+		border-right: solid; border-color: white; border-radius: 1px;
+	
+	
+}
+aside {
+	display: block;
+	float: left; 
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 20px; text-align: center;
+	background-color: inherit; 
+	height: auto;
+	width: 15%;
+
+}
+
+
+footer {
+	display: block; clear: both;
+	background-color: #B8860B;
+	margin: 5px;
+	
+	width: 97.6%;
+	padding-left: 20px;
+	text-align: left;
+
+}
+
+
+@media screen and (max-width:768px) {
+	header {
+		width: 98.4%;
+	}
+	nav {
+		float:none; height: auto; width: 94%;  margin right: 5px;
+		margin-bottom: 5px; 
+	}
+	main {
+		float: left; width: 97.3%; background-color: #FFFAF0; height: auto; 
+		padding-top: 0px; padding-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-bottom:5px; 
+		border-bottom: solid; border-color: white; border-radius: 1px;
+		border-top: solid; border-color: white; border-radius: 1px;
+		border-left: none;
+		border-right: none;
+		
+		
+	}
+	aside {
+		float: left; width: 98.5%; height: auto; margin-top: 5px; margin-bottom: 5px;
+		padding-top: 5px;
+	}
+	
+	footer {
+		float: left; width: 95.9%;
+		height: 100%;	
+		
+	}
+	
+	}
+}
+
+    
